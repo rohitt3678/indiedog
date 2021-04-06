@@ -1,0 +1,155 @@
+#title{
+  background-color: #ff4c68;
+  padding:3% 15% 3% 15%;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  line-height:1.5;
+  font-size: 3rem;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% 7% 10%;
+}
+.navbar-dark .navbar-brand{
+  font-family: "Ubuntu";
+  line-height: 1.5;
+  font-size:1.8rem;
+  font-weight: bold;
+}
+
+.navbar.navbar-dark{
+  padding-bottom:4.5rem;
+  padding-left: 0rem;
+
+}
+.navbar .nav-item{
+  padding:0 18px;
+}
+.navbar .nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+/* buttons */
+.download-button{
+  margin: 5% 3% 2% 0;
+  font-size: 16px;
+}
+
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+
+
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff ;
+  /* background color -white than to make features sit on title image we have to make its z index =1 and t-image=-1fo if we do this then there is no image showing so we will delete -1 and now we will give
+  relative position in the feature section {for more info check the pdf in resourse section} */
+
+
+
+}
+
+.feature-box{
+  padding:5%;
+  text-align:center;
+
+}
+h3{
+  font-family:'Montserrat-Black';
+  font-size: 1.5rem;
+
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size:3rem;
+  line-height: 1.5;
+}
+p{
+  color:#8f8f8f;
+}
+.fas{
+  color:#ef8172;
+  margin: .6rem;
+}
+.far{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+.far:hover{
+  color: #ff4c68;
+}
+/* testimonials */
+
+#testimonials{
+
+  text-align: center;
+  background-color:#EF8172;
+  color: #fff;
+
+
+}
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin:20px 0 0px 0;
+
+  }
+  .carousel-item{
+    padding:7% 15%;
+  }
+  #press{
+    background-color:#EF8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+
+  }
+  .press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+
+  }
+  .h {
+    color:Black;
+
+
+  }
+
+.Price{
+  text-align: center;
+}
+.pricing{
+  padding: 10px 100px 100px 100px;
+}
+@media (max-width:1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    font-family:"Montserrat-Black";
+    font-size: 3.5rem;
+    color: #fff;
+    padding: 7% 15%;
+    }
+
+#footer{
+  text-align: center;
+  padding:7% 15%;
+
+
+}
+.social{
+  margin:3% 2%;  
+}
+/*  */
